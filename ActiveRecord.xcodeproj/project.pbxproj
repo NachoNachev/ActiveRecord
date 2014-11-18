@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56B0B41E1A1B7CE500D5FF96 /* NSManagedObject+FetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B0B41D1A1B7CE500D5FF96 /* NSManagedObject+FetchedResultsController.swift */; };
 		BFF2C1001A12364C00FD8F4F /* ActiveRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF2C0FF1A12364C00FD8F4F /* ActiveRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFF2C11A1A12369B00FD8F4F /* NSManagedObject+ActiveRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C1161A12369B00FD8F4F /* NSManagedObject+ActiveRecord.swift */; };
 		BFF2C11B1A12369B00FD8F4F /* NSManagedObjectContext+ActiveRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C1171A12369B00FD8F4F /* NSManagedObjectContext+ActiveRecord.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56B0B41D1A1B7CE500D5FF96 /* NSManagedObject+FetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+FetchedResultsController.swift"; sourceTree = "<group>"; };
 		BFF2C0FA1A12364C00FD8F4F /* ActiveRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActiveRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF2C0FE1A12364C00FD8F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFF2C0FF1A12364C00FD8F4F /* ActiveRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActiveRecord.h; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				BFF2C1171A12369B00FD8F4F /* NSManagedObjectContext+ActiveRecord.swift */,
 				BFF2C1161A12369B00FD8F4F /* NSManagedObject+ActiveRecord.swift */,
 				BFF2C11E1A12371F00FD8F4F /* NSManagedObject+Finders.swift */,
+				56B0B41D1A1B7CE500D5FF96 /* NSManagedObject+FetchedResultsController.swift */,
 				BFF2C0FD1A12364C00FD8F4F /* Supporting Files */,
 			);
 			path = ActiveRecord;
@@ -155,6 +158,7 @@
 			files = (
 				BFF2C11C1A12369B00FD8F4F /* NSPersistentStoreCoordinator+ActiveRecord.swift in Sources */,
 				BFF2C11F1A12371F00FD8F4F /* NSManagedObject+Finders.swift in Sources */,
+				56B0B41E1A1B7CE500D5FF96 /* NSManagedObject+FetchedResultsController.swift in Sources */,
 				BFF2C11B1A12369B00FD8F4F /* NSManagedObjectContext+ActiveRecord.swift in Sources */,
 				BFF2C11D1A12369B00FD8F4F /* NSManagedObjectModel+ActiveRecord.swift in Sources */,
 				BFF2C11A1A12369B00FD8F4F /* NSManagedObject+ActiveRecord.swift in Sources */,
