@@ -16,7 +16,7 @@ extension NSManagedObjectContext {
         if NSThread.isMainThread() {
             return mainThreadContext
         }
-        let currentThreadDict = NSThread.currentThread().threadDictionary!
+        let currentThreadDict = NSThread.currentThread().threadDictionary
         if let context = currentThreadDict[kActiveRecordContextKey] as? NSManagedObjectContext {
             return context
         }
@@ -27,7 +27,7 @@ extension NSManagedObjectContext {
     }
     
     class var mainThreadContext: NSManagedObjectContext {
-        let mainThreadDict = NSThread.mainThread().threadDictionary!
+        let mainThreadDict = NSThread.mainThread().threadDictionary
         if let context = mainThreadDict[kActiveRecordContextKey] as? NSManagedObjectContext {
             return context
         }
